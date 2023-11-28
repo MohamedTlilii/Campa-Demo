@@ -4,6 +4,9 @@ import Hero from "./Hero/Hero";
 import Button from "./Button/Button";
 import AboutSection from "./AboutSection/AboutSection";
 import AccomodationsSection from "./AccomodationsSection/AccomodationsSection";
+import ServicesSection from "./Servicesection/ServicesSection";
+import CardServiceSection from "./CardServiceSection/CardServiceSection";
+import { GiCampingTent } from "react-icons/gi";
 
 function App() {
   return (
@@ -47,6 +50,18 @@ function App() {
           width="300px"
           color="black"
           bgColor="white"
+        />
+      </div>
+      <div>
+        <ServicesSection />
+      </div>
+      <div>
+        <CardServiceSection
+          content="Camping"
+          color="#777"
+          titlle="Team Camping"
+          plus="+"
+          img=""
         />
       </div>
     </div>
