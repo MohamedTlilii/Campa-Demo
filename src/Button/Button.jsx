@@ -5,7 +5,11 @@ function Button(props) {
   return (
     <div>
       <button
-        style={{ color: props.color, backgroundColor: props.bgColor,border: `  ` }}
+        style={{
+          color: props.color,
+          backgroundColor: props.bgColor,
+          width: props.width,
+        }}
         className="btn"
       >
         {props.content}

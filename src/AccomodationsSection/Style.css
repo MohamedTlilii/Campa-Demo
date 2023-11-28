@@ -1,0 +1,33 @@
+.cont {
+    /* border: 2px black solid; */
+    position: relative;
+    bottom:500px;
+}
+.tittleee {
+    /* border: 2px black solid; */
+position: relative;
+left: 700px;
+width: fit-content;
+}
+.our  {
+    color: #f36525;
+    font-size: 16px;
+    position: relative;
+    left: 155px;
+}
+.titlle-our {
+    font-size: 46px;
+    line-height: 1.2;
+    font-weight: 700;
+  }
+ .box-img {
+display: flex;
+justify-content: center;
+gap: 20px;
+ } 
+ .Accomodation-btn {
+    display: flex;
+     position: relative;
+     top: 270px;
+     gap: 90px;
+ }

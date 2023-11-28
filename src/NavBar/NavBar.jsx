@@ -6,12 +6,14 @@ import { GoChevronDown } from "react-icons/go";
 function NavBar() {
   return (
     <div >
-      <nav className="Containair">
+      <nav className="Nav">
+        <div>
         <img
           style={{ width: "180px", height: "70px" }}
           src="/assets/img/logoNav.png"
           alt="logo"
         />
+        </div>
         <ul>
           <li>
             Homepages <GoChevronDown  className="arow" />

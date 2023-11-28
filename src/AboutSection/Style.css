@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+.Containair {
+  width: 1000px;
+  display: flex;
+  position: relative;
+  bottom: 500px;
+  left: 400px;
+  background-color: rgb(255, 255, 255);
+}
+.about-containt {
+  position: relative;
+  left: 30px;
+  bottom: 50px;
+  width: 450px;
+  height: 600px;
+}
+.About {
+  color: #f36525;
+  font-size: 16px;
+}
+.titlle {
+  font-size: 46px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.pragraph {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 15px;
+  color: #777;
+  width: 330px;
+}
+.Card {
+  border: 2px black solid;
+  position: relative;
+  left: 50px;
+  top: 160px;
+  border-radius: 35px;
+  background-color: rgb(255, 255, 255);
+  height: 390px;
+}
+.card-number {
+  /* border: #313131 solid 2px; */
+  position: relative;
+  left: 63px;
+  top: 94px;
+  color: #000000;
+  font-size: x-large;
+}
+.card-pro {
+  /* border: #313131 solid 2px; */
+  position: relative;
+  left: 64px;
+  top: 93px;
+  color: #f36525;
+  font-size: larger;
+}
+.camping-card {
+  /* border:2px black solid ; */
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+}
+
+.Camping {
+  font-size: 18px;
+  color: #313131;
+}
+.card-parag {
+  font-size: 17px;
+  line-height: 1.8;
+  margin-bottom: 15px;
+  color: #777;
+  margin: 10px;
+  padding: 10px;
+}
+.camping-btn {
+  margin: 10px;
+  padding: 10px;
+  color: #777;
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: 700;
+}
+.about-btn {
+  display: flex;
+  position: relative;
+  left: 390px;
+  top: 190px;
+ 
+}

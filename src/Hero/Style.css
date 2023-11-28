@@ -11,23 +11,35 @@
   bottom: 750px;
   left: 400px;
   
+  
 
 }
-p {
+.p {
   font-size: 16px;
   line-height: 1.8;
 }
-h1 {
+.camp-titlle {
   
   font-size: 50px;
   font-weight: 900;
   line-height: 1.2;
 
 }
-h4 {
+.hero-titlle{
   
   font-weight: 400;
   font-size: 25px;
 
 }
+.second-btn {
+  display: flex;
+  position: relative;
+  left: 200px;
+  bottom: 89px;
+}
+
+
+
+
+
 
