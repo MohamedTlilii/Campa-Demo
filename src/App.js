@@ -1,12 +1,17 @@
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { RiTentFill } from "react-icons/ri";
+import { FaFireAlt } from "react-icons/fa";
+import { FaBus } from "react-icons/fa6";
+import { FaHouse } from "react-icons/fa6";
+
 import NavBar from "./NavBar/NavBar";
 import Hero from "./Hero/Hero";
 import Button from "./Button/Button";
 import AboutSection from "./AboutSection/AboutSection";
 import AccomodationsSection from "./AccomodationsSection/AccomodationsSection";
-import ServicesSection from "./Servicesection/ServicesSection";
-import CardServiceSection from "./CardServiceSection/CardServiceSection";
-import { GiCampingTent } from "react-icons/gi";
+import Cards from "./Card/Cards";
+import Services from "./ServiceSection/Services";
 
 function App() {
   return (
@@ -29,7 +34,12 @@ function App() {
       </div>
       <AboutSection />
       <div className="about-btn">
-        <Button width="150px" content="Learn More" />
+        <Button
+          width="150px"
+          content="Learn More"
+          bgColor=" #f36525"
+          color="white"
+        />
       </div>
       <AccomodationsSection />
       <div className="Accomodation-btn">
@@ -53,15 +63,40 @@ function App() {
         />
       </div>
       <div>
-        <ServicesSection />
+        <Services />
       </div>
-      <div>
-        <CardServiceSection
-          content="Camping"
-          color="#777"
-          titlle="Team Camping"
-          plus="+"
-          img=""
+      <div className="cards">
+        <Cards
+          icon={<RiTentFill size={200} />}
+          text={"Camping"}
+          title={"Team Camping"}
+          width={"18rem"}
+          height={"50%"}
+          plus={"+"}
+        />
+        <Cards
+          icon={<FaFireAlt />}
+          text={"Hiking"}
+          title={" Individual Camping"}
+          width={"18rem"}
+          height={"850px"}
+          plus={"+"}
+        />
+        <Cards
+          icon={<FaBus />}
+          text={"Travel"}
+          title={" Waterfront Activities"}
+          width={"18rem"}
+          height={"850px"}
+          plus={"+"}
+        />
+        <Cards
+          icon={<FaHouse />}
+          text={"Music"}
+          title={" Special Treaps"}
+          width={"18rem"}
+          height={"850px"}
+          plus={"+"}
         />
       </div>
     </div>
