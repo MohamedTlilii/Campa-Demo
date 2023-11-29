@@ -9,6 +9,7 @@ import AboutSection from "./AboutSection/AboutSection";
 import AccomodationsSection from "./AccomodationsSection/AccomodationsSection";
 import Cards from "./Card/Cards";
 import ServicesSection from "./Servicesection/ServicesSection";
+import Portfolio from "./Portfolio/Portfolio"
 
 function App() {
   return (
@@ -95,6 +96,9 @@ function App() {
           height={"850px"}
           plus={"+"}
         />
+      </div>
+      <div>
+        <Portfolio/>
       </div>
     </div>
   );

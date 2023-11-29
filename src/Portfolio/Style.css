@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .portfolio {
+    color: #f36525;
+    font-size: 16px;
+    position: relative;
+    left: 0px;
+  }
+  .portfolio-titlle {
+    font-size: 46px;
+    line-height: 1.2;
+    font-weight: 700;
+  
+  }
+  .contanair-portfolio {
+    /* border: 2px solid black; */
+    width: 1000px;
+  position: relative;
+  bottom: 700px;
+  left: 500px;
+  
+  }

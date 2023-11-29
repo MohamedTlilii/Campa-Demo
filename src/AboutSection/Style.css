@@ -36,7 +36,7 @@
   border: 2px black solid;
   position: relative;
   left: 50px;
-  top: 160px;
+  top: 90px;
   border-radius: 35px;
   background-color: rgb(255, 255, 255);
   height: 390px;
@@ -67,6 +67,9 @@
 .Camping {
   font-size: 18px;
   color: #313131;
+  position: relative;
+  top: 50px;
+  left: 10px;
 }
 .card-parag {
   font-size: 17px;
@@ -88,5 +91,5 @@
   display: flex;
   position: relative;
   left: 390px;
-  top: 190px;
+  top: 120px;
 }
