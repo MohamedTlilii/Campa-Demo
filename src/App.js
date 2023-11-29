@@ -1,9 +1,6 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { RiTentFill } from "react-icons/ri";
-import { FaFireAlt } from "react-icons/fa";
-import { FaBus } from "react-icons/fa6";
-import { FaHouse } from "react-icons/fa6";
+
 
 import NavBar from "./NavBar/NavBar";
 import Hero from "./Hero/Hero";
@@ -11,7 +8,7 @@ import Button from "./Button/Button";
 import AboutSection from "./AboutSection/AboutSection";
 import AccomodationsSection from "./AccomodationsSection/AccomodationsSection";
 import Cards from "./Card/Cards";
-import Services from "./ServiceSection/Services";
+import ServicesSection from "./Servicesection/ServicesSection";
 
 function App() {
   return (
@@ -63,11 +60,11 @@ function App() {
         />
       </div>
       <div>
-        <Services />
+        <ServicesSection />
       </div>
       <div className="cards">
         <Cards
-          icon={<RiTentFill size={200} />}
+          icon={"./assets/img/camping.png"}
           text={"Camping"}
           title={"Team Camping"}
           width={"18rem"}
@@ -75,7 +72,7 @@ function App() {
           plus={"+"}
         />
         <Cards
-          icon={<FaFireAlt />}
+          icon={"./assets/img/hiking.png"}
           text={"Hiking"}
           title={" Individual Camping"}
           width={"18rem"}
@@ -83,7 +80,7 @@ function App() {
           plus={"+"}
         />
         <Cards
-          icon={<FaBus />}
+          icon={"./assets/img/bus.png"}
           text={"Travel"}
           title={" Waterfront Activities"}
           width={"18rem"}
@@ -91,7 +88,7 @@ function App() {
           plus={"+"}
         />
         <Cards
-          icon={<FaHouse />}
+          icon={"./assets/img/house.png"}
           text={"Music"}
           title={" Special Treaps"}
           width={"18rem"}

@@ -6,6 +6,7 @@ function Cards(props) {
   return (
     <div
       style={{
+        icon: props.icon,
         color: props.color,
         backgroundColor: props.bgColor,
         width: props.width,
@@ -13,7 +14,7 @@ function Cards(props) {
       }}
     >
       <Card className="cardd">
-        <Card.Img variant="top" src={props.icon} />
+        <Card.Img style={{ width: "150px" }} variant="top" src={props.icon} />
         <Card.Body>
           <Card.Text>
             <h6 className="textcard">{props.text}</h6>
